@@ -1,0 +1,20 @@
+clear all;
+close all;
+clc;
+T=0.25;
+M=32;
+Te=T/M;
+Tsim=T-Te;
+Fsin=60;
+Fe=1/Te
+Res=sim('SimulDFT');
+plot(Res.Sinus_Continu);
+hold on;
+plot(Res.Sinus_Echanti,'o');
+grid;
+DFT_Sin = fft(Res.Sinus_Echanti.Data,M);
+DFT_Sin = DFT_Sin/M;
+figure;
+abscisse1 = linspace(0,M-1,M);
+abscisse2 = abscisse1*1/T;
+stem(abscisse2,abs(DFT_Sin),'o');

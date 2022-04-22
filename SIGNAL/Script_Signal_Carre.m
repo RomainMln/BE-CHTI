@@ -1,0 +1,25 @@
+clear all;
+close all;
+clc;
+T=1/(5e3);
+Fe=320e3;
+M=T*Fe;
+F1=85e3;
+Res=sim('Signal_Carre');
+fft_signal_sf = fft(Res.Signal_CSF.data);
+fft_signal_sf = fft_signal_sf/M;
+fft_signal = fft(Res.Signal_C.data);
+fft_signal = fft_signal/M;
+aux = linspace(0,M-1,M);
+abscisse =aux * 1/T;
+plot(Res.Signal_C);
+figure;
+stem(abscisse,abs(fft_signal),'bo');
+hold on;
+%stem(abscisse,abs(fft_signal_sf),'rx');
+hold off
+grid;
+figure;
+sys = tf([1],[1.7483*10^(-23) 7.6663*10^(-18) 1.162*10^(-11) 3.0332*10^(-6) 1]);
+bode(sys);
+R = 255/(2*pi);
