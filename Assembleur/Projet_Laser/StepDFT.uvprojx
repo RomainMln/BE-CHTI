@@ -428,6 +428,21 @@
               <FileType>4</FileType>
               <FilePath>.\Driver\DriverJeuLaser.lib</FilePath>
             </File>
+            <File>
+              <FileName>DriverJeuLaser.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>\\netapp2\g_robert\chti\BE-CHTI\Assembleur\Projet_Laser\Driver\DriverJeuLaser.h</FilePath>
+            </File>
+            <File>
+              <FileName>Affichage_Valise.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>\\netapp2\g_robert\chti\BE-CHTI\Assembleur\Projet_Laser\Driver\Affichage_Valise.h</FilePath>
+            </File>
+            <File>
+              <FileName>affichage_valise.o</FileName>
+              <FileType>3</FileType>
+              <FilePath>.\Driver\affichage_valise.o</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -856,6 +871,21 @@
               <FileName>DriverJeuLaser.lib</FileName>
               <FileType>4</FileType>
               <FilePath>.\Driver\DriverJeuLaser.lib</FilePath>
+            </File>
+            <File>
+              <FileName>DriverJeuLaser.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>\\netapp2\g_robert\chti\BE-CHTI\Assembleur\Projet_Laser\Driver\DriverJeuLaser.h</FilePath>
+            </File>
+            <File>
+              <FileName>Affichage_Valise.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>\\netapp2\g_robert\chti\BE-CHTI\Assembleur\Projet_Laser\Driver\Affichage_Valise.h</FilePath>
+            </File>
+            <File>
+              <FileName>affichage_valise.o</FileName>
+              <FileType>3</FileType>
+              <FilePath>.\Driver\affichage_valise.o</FilePath>
             </File>
           </Files>
         </Group>
@@ -1354,6 +1384,21 @@
               <FileName>DriverJeuLaser.lib</FileName>
               <FileType>4</FileType>
               <FilePath>.\Driver\DriverJeuLaser.lib</FilePath>
+            </File>
+            <File>
+              <FileName>DriverJeuLaser.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>\\netapp2\g_robert\chti\BE-CHTI\Assembleur\Projet_Laser\Driver\DriverJeuLaser.h</FilePath>
+            </File>
+            <File>
+              <FileName>Affichage_Valise.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>\\netapp2\g_robert\chti\BE-CHTI\Assembleur\Projet_Laser\Driver\Affichage_Valise.h</FilePath>
+            </File>
+            <File>
+              <FileName>affichage_valise.o</FileName>
+              <FileType>3</FileType>
+              <FilePath>.\Driver\affichage_valise.o</FilePath>
             </File>
           </Files>
         </Group>
